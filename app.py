@@ -25,4 +25,4 @@ def chat():
         
 if __name__ == '__main__':
     # Use threaded mode to handle concurrent requests
-    app.run(debug=True, port=3000)
+    app.run(debug=True, port=3000, host='0.0.0.0')
