@@ -24,5 +24,4 @@ def chat():
         return jsonify({'error': str(e)}), 500
         
 if __name__ == '__main__':
-    # Use threaded mode to handle concurrent requests
-    app.run(debug=True, port=3000, host='0.0.0.0')
+    app.run(debug=True, port=4999, host='0.0.0.0')
